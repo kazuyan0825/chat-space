@@ -1,7 +1,6 @@
 # DB設計
 
-##　users table
-
+## users table
 |Column|Type|Options|
 |------|----|-------|
 |name|string|index: true,null: false,unique: true|
