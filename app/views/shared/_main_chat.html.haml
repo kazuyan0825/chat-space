@@ -1,0 +1,24 @@
+.main-chat
+  .main-header
+    .main-header__left-box
+      %h2.main-header__left-box__current-group
+        git
+      %ul.main-header__left-box__member-list 
+        Member :
+        %li.main-header__left-box__member-list__member  kitagawa
+    = link_to "#" do
+      .main-header__edit-btn Edit
+  .messages
+    .message
+      .message__upper-info
+        kitagawa
+      %p.message__text
+        HellowWorld
+  .form 
+    %form.new_message
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a massage"}
+        %label{class: "input-box__image"}
+          = icon('fa', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", class: "submit-btn"}
