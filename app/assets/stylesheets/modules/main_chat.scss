@@ -8,29 +8,22 @@
     justify-content: space-between;
     border-bottom: solid 1px #eee;
     overflow: scroll;
-      .main-header__left-box{
+      &__left-box{
         margin-top: 35px;
       
-        .main-header__left-box__current-group{
+        &__current-group{
           font-size: 20px;
           color: #333;
           margin-bottom: 15px;
           font-weight: normal;
         }
-        .main-header__left-box__member-list{
+        &__member-list{
           display: flex;
           font-size: 12px;
           color: #999999;
-          list-style: none;
-          .main-header__left-box__member-list__member{
-            display: list-item;
-            font-size: 12px;
-            color: #999999;
-            list-style: none;
-          }
         }
       }
-      .main-header__edit-btn{
+      &__edit-btn{
         height: 40px;
         line-height: 40px;
         padding: 0 20px;
@@ -49,11 +42,11 @@
     overflow: scroll;
     .message{
       padding-bottom: 40px;
-      .message__upper-info{
+      &__upper-info{
         display: flex;
         margin-bottom: 10px;
       }
-      .message__text{
+      &__text{
         color: #434a54;
         font-size: 14px;
         margin-bottom: 10px;
