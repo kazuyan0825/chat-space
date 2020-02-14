@@ -32,6 +32,10 @@
         position: absolute;
         right: 40px;
         color: #38aef0;
+        a{
+          text-decoration: none;
+          color: #38aef0;
+        }
       }
   }
   
@@ -40,18 +44,6 @@
     padding: 46px 40px;
     background-color: #fafafa;
     overflow: scroll;
-    .message{
-      padding-bottom: 40px;
-      &__upper-info{
-        display: flex;
-        margin-bottom: 10px;
-      }
-      &__text{
-        color: #434a54;
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
-    }
   }
 
   .form{
